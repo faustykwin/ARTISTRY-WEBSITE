@@ -1,0 +1,133 @@
+export interface TourDate {
+  id: string;
+  city: string;
+  venue: string;
+  country: string;
+  date: string;
+  ticketLink: string;
+  status: "available" | "sold-out" | "few-tickets" | "announced";
+  flag: string;
+}
+
+export const tourDates: TourDate[] = [
+  {
+    id: "tour-1",
+    city: "Los Angeles",
+    venue: "Crypto.com Arena",
+    country: "USA",
+    date: "2025-06-14",
+    ticketLink: "https://tickets.example.com/aurelio-la",
+    status: "few-tickets",
+    flag: "🇺🇸",
+  },
+  {
+    id: "tour-2",
+    city: "New York",
+    venue: "Madison Square Garden",
+    country: "USA",
+    date: "2025-06-21",
+    ticketLink: "https://tickets.example.com/aurelio-nyc",
+    status: "sold-out",
+    flag: "🇺🇸",
+  },
+  {
+    id: "tour-3",
+    city: "London",
+    venue: "The O2 Arena",
+    country: "UK",
+    date: "2025-07-05",
+    ticketLink: "https://tickets.example.com/aurelio-london",
+    status: "available",
+    flag: "🇬🇧",
+  },
+  {
+    id: "tour-4",
+    city: "Paris",
+    venue: "Accor Arena",
+    country: "France",
+    date: "2025-07-12",
+    ticketLink: "https://tickets.example.com/aurelio-paris",
+    status: "available",
+    flag: "🇫🇷",
+  },
+  {
+    id: "tour-5",
+    city: "Lagos",
+    venue: "Tafawa Balewa Square",
+    country: "Nigeria",
+    date: "2025-07-26",
+    ticketLink: "https://tickets.example.com/aurelio-lagos",
+    status: "few-tickets",
+    flag: "🇳🇬",
+  },
+  {
+    id: "tour-6",
+    city: "Accra",
+    venue: "National Theatre",
+    country: "Ghana",
+    date: "2025-08-02",
+    ticketLink: "https://tickets.example.com/aurelio-accra",
+    status: "available",
+    flag: "🇬🇭",
+  },
+  // {
+  //   id: "tour-7",
+  //   city: "Johannesburg",
+  //   venue: "FNB Stadium",
+  //   country: "South Africa",
+  //   date: "2025-08-16",
+  //   ticketLink: "https://tickets.example.com/aurelio-joburg",
+  //   status: "announced",
+  //   flag: "🇿🇦",
+  // },
+  // {
+  //   id: "tour-8",
+  //   city: "Tokyo",
+  //   venue: "Tokyo Dome",
+  //   country: "Japan",
+  //   date: "2025-09-06",
+  //   ticketLink: "https://tickets.example.com/aurelio-tokyo",
+  //   status: "available",
+  //   flag: "🇯🇵",
+  // },
+  // {
+  //   id: "tour-9",
+  //   city: "São Paulo",
+  //   venue: "Allianz Parque",
+  //   country: "Brazil",
+  //   date: "2025-09-20",
+  //   ticketLink: "https://tickets.example.com/aurelio-sao-paulo",
+  //   status: "announced",
+  //   flag: "🇧🇷",
+  // },
+  // {
+  //   id: "tour-10",
+  //   city: "Toronto",
+  //   venue: "Scotiabank Arena",
+  //   country: "Canada",
+  //   date: "2025-10-04",
+  //   ticketLink: "https://tickets.example.com/aurelio-toronto",
+  //   status: "available",
+  //   flag: "🇨🇦",
+  // },
+  // {
+  //   id: "tour-11",
+  //   city: "Dubai",
+  //   venue: "Coca-Cola Arena",
+  //   country: "UAE",
+  //   date: "2025-10-18",
+  //   ticketLink: "https://tickets.example.com/aurelio-dubai",
+  //   status: "available",
+  //   flag: "🇦🇪",
+  // },
+  // {
+  //   id: "tour-12",
+  //   city: "Sydney",
+  //   venue: "Qudos Bank Arena",
+  //   country: "Australia",
+  //   date: "2025-11-01",
+  //   ticketLink: "https://tickets.example.com/aurelio-sydney",
+  //   status: "announced",
+  //   flag: "🇦🇺",
+  // },
+];
